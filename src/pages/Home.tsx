@@ -39,7 +39,7 @@ const Home = ({ navigate }: HomeProps) => {
   ];
 
   const stats = [
-    { number: '500+', label: 'Clients Served' },
+    { number: '150+', label: 'Clients Served' },
     { number: '15+', label: 'Years Experience' },
     { number: '50+', label: 'Expert Team' },
     { number: '98%', label: 'Client Satisfaction' },
