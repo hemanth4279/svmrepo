@@ -48,7 +48,7 @@ const Header = ({ currentPath, navigate }: HeaderProps) => {
             className="flex items-center cursor-pointer"
             onClick={() => handleNavigate('/')}
           >
-            <div className="text-[2.475rem] font-bold bg-gradient-to-r from-amber-700 via-yellow-500 to-amber-400 dark:from-amber-300 dark:via-yellow-200 dark:to-amber-400 bg-clip-text text-transparent">
+            <div className="text-[1.73rem] font-bold bg-gradient-to-r from-blue-800 via-blue-600 to-cyan-500 dark:from-blue-300 dark:via-blue-200 dark:to-cyan-300 bg-clip-text text-transparent">
   SVM ASSOCIATES
 </div>
           </div>
