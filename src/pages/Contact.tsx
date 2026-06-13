@@ -48,7 +48,7 @@ const Contact = ({ navigate }: ContactProps) => {
       icon: MapPin,
       title: 'Office Address',
       content:
-        'H.No- 206, Vasantha Lakshmi Nilayam, Temple Main Gate Road, Near Water Tank, Jaya Prakash Narayan Nagar, Miyapur, Hyderabad, Telangana-500049',
+        'H No-206, S1 2nd Floor, Vasantha Lakshmi Nilayam, Opposite Sai Baba Temple, Jaya Prakash Narayan Nagar colony, Miyapur, Hyderabad, Telangana-500049,
     },
     {
       icon: Phone,
@@ -65,7 +65,7 @@ const Contact = ({ navigate }: ContactProps) => {
     {
       icon: Clock,
       title: 'Business Hours',
-      content: 'Monday - Saturday: 9:00 AM - 6:00 PM',
+      content: 'Monday - Sunday: 9:00 AM - 6:00 PM',
     },
   ];
 
