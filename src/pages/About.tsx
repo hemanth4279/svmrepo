@@ -61,7 +61,7 @@ const About = ({ navigate }: AboutProps) => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto">
 <h1 className="text-[1.35rem] md:text-[1.5rem] lg:text-[1.65rem] font-bold mb-6">
-  About SVM ASSOCIATES
+  ABOUT SVM ASSOCIATES
 </h1>
             <p className="text-xl text-blue-100">
               Your trusted partner in financial excellence since 2020
