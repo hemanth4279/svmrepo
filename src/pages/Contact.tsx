@@ -48,7 +48,7 @@ const Contact = ({ navigate }: ContactProps) => {
       icon: MapPin,
       title: 'Office Address',
       content:
-        'H No-206, S1 2nd Floor, Vasantha Lakshmi Nilayam, Opposite Sai Baba Temple, Jaya Prakash Narayan Nagar colony, Miyapur, Hyderabad, Telangana-500049'
+        'H No-206, S1 2nd Floor, Vasantha Lakshmi Nilayam, Sai Baba Temple Main Gate Road Near Water Tank , Jaya Prakash Narayan Nagar colony, Miyapur, Hyderabad, Telangana-500049'
     },
     {
       icon: Phone,
