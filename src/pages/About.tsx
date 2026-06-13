@@ -30,7 +30,7 @@ const About = ({ navigate }: AboutProps) => {
 
   const team = [
     {
-      name: 'CA Suresh Verma',
+      name: 'K.UmaMaheswara Reddy',
       role: 'Founder & Managing Partner',
       expertise: 'Taxation & Audit',
       experience: '20+ years',
