@@ -33,17 +33,17 @@ const About = ({ navigate }: AboutProps) => {
       name: 'K.UmaMaheswara Reddy',
       role: 'Founder & Managing Partner',
       expertise: 'Taxation & Audit',
-      experience: '20+ years',
+      experience: '5+ years',
     }
     
   ];
 
   const milestones = [
-    { year: '2008', event: 'SVM Associates Founded' },
-    { year: '2012', event: '100+ Clients Milestone' },
-    { year: '2016', event: 'Expanded to Multiple Cities' },
-    { year: '2020', event: 'Digital Transformation Initiative' },
-    { year: '2024', event: '500+ Happy Clients' },
+    { year: '2020', event: 'SVM Associates Founded' },
+    { year: '2021', event: '100+ Clients Milestone' },
+    { year: '2023', event: 'Expanded to Multiple Cities' },
+    { year: '2024', event: 'Digital Transformation Initiative' },
+    { year: '2026', event: '500+ Happy Clients' },
   ];
 
   const expertise = [
