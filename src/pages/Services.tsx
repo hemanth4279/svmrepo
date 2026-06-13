@@ -12,8 +12,8 @@ const Services = ({ navigate }: ServicesProps) => {
     description:
       'Comprehensive GST solutions to ensure complete compliance and optimize your tax benefits.',
     benefits: [
-      'GST Registration & GST Returns Filings',
-      'GST Annual Returns Filings',
+      'GST Registration & GST Returns Fillings',
+      'GST Annual Returns Fillings',
       'GST Audits & Reconciliation',
       'Advisory on GST',
     ],
@@ -25,7 +25,7 @@ const Services = ({ navigate }: ServicesProps) => {
     description:
       'Expert income tax planning and filing services for individuals and businesses.',
     benefits: [
-      'Income Tax Returns Filings',
+      'Income Tax Returns Fillings',
       'Income Tax Audits',
       'Tax Planning & Optimization',
       'Appeals & Litigation Supports',
@@ -72,8 +72,8 @@ const Services = ({ navigate }: ServicesProps) => {
     description:
       'Complete compliance, registration, and documentation services for businesses and individuals.',
     benefits: [
-      'TDS Returns Filings',
-      'PF & ESI Registration & Returns Filings',
+      'TDS Returns Fillings',
+      'PF & ESI Registration & Returns Fillings',
       'Payroll Services',
       'Professional Tax Registrations & Returns',
       'PAN Card Services',
