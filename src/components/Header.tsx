@@ -38,8 +38,8 @@ const Header = ({ currentPath, navigate }: HeaderProps) => {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
-  ? 'bg-white/95 dark:bg-gray-900/95 backdrop-blur-sm shadow-md'
-  : 'bg-transparent'
+          ? 'bg-white/95 dark:bg-gray-900/95 backdrop-blur-sm shadow-md'
+          : 'bg-transparent'
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -48,9 +48,9 @@ const Header = ({ currentPath, navigate }: HeaderProps) => {
             className="flex items-center cursor-pointer"
             onClick={() => handleNavigate('/')}
           >
-<div className="text-[2.805rem] font-bold text-Black">
-  SVM ASSOCIATES
-</div>
+            <div className="text-2xl font-bold bg-gradient-to-r from-primary-600 to-primary-800 dark:from-primary-400 dark:to-primary-600 bg-clip-text text-transparent">
+              SVM Associates
+            </div>
           </div>
 
           <nav className="hidden md:flex items-center space-x-8">
@@ -80,7 +80,7 @@ const Header = ({ currentPath, navigate }: HeaderProps) => {
             </button>
             <button
               onClick={() => handleNavigate('/contact')}
-              className="px-6 py-2.5 bg-primary-600 hover:bg-primary-700 text-gray-700 dark:text-gray-300 rounded-lg font-medium transition-colors shadow-md hover:shadow-lg"
+              className="px-6 py-2.5 bg-primary-600 hover:bg-primary-700 text-white rounded-lg font-medium transition-colors shadow-md hover:shadow-lg"
             >
               Get Consultation
             </button>
@@ -131,7 +131,7 @@ const Header = ({ currentPath, navigate }: HeaderProps) => {
             ))}
             <button
               onClick={() => handleNavigate('/contact')}
-              className="w-full px-4 py-3 bg-primary-600 hover:bg-primary-700 text-gray-700 dark:text-gray-300 rounded-lg font-medium transition-colors shadow-md"
+              className="w-full px-4 py-3 bg-primary-600 hover:bg-primary-700 text-white rounded-lg font-medium transition-colors shadow-md"
             >
               Get Consultation
             </button>
