@@ -28,7 +28,7 @@ const Services = ({ navigate }: ServicesProps) => {
       'Income Tax Returns Filings',
       'Income Tax Audits',
       'Tax Planning & Optimization',
-      'Appeals & Litigations Support',
+      'Appeals & Litigation Supports',
     ],
   },
 
