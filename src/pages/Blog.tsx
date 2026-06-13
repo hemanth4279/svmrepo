@@ -43,7 +43,7 @@ Many businesses make errors in Input Tax Credit (ITC) claims, miss reconciliatio
 
 At SVM Associates, we help businesses navigate the complexities of GST compliance, ensuring timely and accurate return filings. Contact us today for expert assistance.`,
     category: 'GST',
-    author: 'CA Suresh Verma',
+    author: 'K.UmaMaheswara Reddy B.com, (CA)',
     published_at: '2024-12-15',
   },
   {
@@ -85,7 +85,7 @@ Tax laws change frequently, and staying updated can be challenging for business 
 
 At SVM Associates, we provide comprehensive tax planning services tailored to your business needs. Schedule a consultation today to optimize your tax strategy.`,
     category: 'Income Tax',
-    author: 'CA Suresh Verma',
+    author: 'K.UmaMaheswara Reddy B.com, (CA)',
     published_at: '2024-11-28',
   },
   {
@@ -125,7 +125,7 @@ Many growing companies face issues with inadequate documentation, inconsistent a
 
 At SVM Associates, our experienced audit team provides thorough statutory audits with actionable insights for business improvement.`,
     category: 'Audit',
-    author: 'CA Suresh Verma',
+    author: 'K.UmaMaheswara Reddy B.com, (CA)',
     published_at: '2024-10-20',
   },
   {
@@ -176,7 +176,7 @@ Documents Required
 
 At SVM Associates, we assist businesses with hassle-free MSME registration and help them maximize the benefits available.`,
     category: 'Registration',
-    author: 'CA Suresh Verma',
+    author: 'K.UmaMaheswara Reddy B.com, (CA)',
     published_at: '2024-09-15',
   },
   {
@@ -218,7 +218,7 @@ Most registrations can be completed within 7-15 business days, depending on the 
 
 At SVM Associates, we guide you through the entire registration process, from choosing the right structure to obtaining all necessary certifications.`,
     category: 'Registration',
-    author: 'CA Suresh Verma',
+    author: 'K.UmaMaheswara Reddy B.com, (CA)',
     published_at: '2024-08-10',
   },
   {
@@ -274,7 +274,7 @@ Best Practices
 
 SVM Associates provides comprehensive TDS compliance services to keep your business penalty-free.`,
     category: 'Tax Compliance',
-    author: 'CA Suresh Verma',
+    author: 'K.UmaMaheswara Reddy B.com, (CA)',
     published_at: '2024-07-25',
   },
 ];
