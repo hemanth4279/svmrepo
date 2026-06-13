@@ -280,7 +280,7 @@ const Contact = ({ navigate }: ContactProps) => {
           </h2>
           <div className="rounded-2xl overflow-hidden shadow-xl">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.0445090654253!2d72.8776559!3d19.0759837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c62d2f564025%3A0x634ce2de8f3f92ef!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1234567890"
+           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d790.2410428748524!2d78.35608113649216!3d17.507970564442168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9273e58effef%3A0x8b7f69422df2b50f!2sJaya%20Prakash%20Narayan%20Nagar%2C%20Miyapur%2C%20Hyderabad%2C%20Telangana%20500049!5e1!3m2!1sen!2sin!4v1781365568591!5m2!1sen!2sin"
               width="100%"
               height="450"
               style={{ border: 0 }}
