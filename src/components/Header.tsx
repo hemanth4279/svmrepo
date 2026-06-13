@@ -49,7 +49,7 @@ const Header = ({ currentPath, navigate }: HeaderProps) => {
             onClick={() => handleNavigate('/')}
           >
             <div className="text-2xl font-bold bg-gradient-to-r from-primary-600 to-primary-800 dark:from-primary-400 dark:to-primary-600 bg-clip-text text-transparent">
-              SVM Associates
+              SVM ASSOCIATES
             </div>
           </div>
 
