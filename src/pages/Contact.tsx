@@ -279,7 +279,8 @@ const Contact = ({ navigate }: ContactProps) => {
             Find Us on the Map
           </h2>
           <div className="rounded-2xl overflow-hidden shadow-xl">
-           
+
+          </div>
         </div>
       </section>
 
