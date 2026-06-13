@@ -49,7 +49,7 @@ const Home = ({ navigate }: HomeProps) => {
     {
       name: 'K.UmaMaheswara Reddy',
       role: 'CEO, Tech Innovations',
-      content: 'SVM Associate has been instrumental in managing our company finances. Their expertise in tax planning saved us significantly.',
+      content: 'SVM Associates has been instrumental in managing our company finances. Their expertise in tax planning saved us significantly.',
     },
    
   ];
