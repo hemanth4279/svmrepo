@@ -43,7 +43,7 @@ const About = ({ navigate }: AboutProps) => {
     { year: '2021', event: '100+ Clients Milestone' },
     { year: '2023', event: 'Expanded to Multiple Cities' },
     { year: '2024', event: 'Digital Transformation Initiative' },
-    { year: '2026', event: '500+ Happy Clients' },
+    { year: '2026', event: '100+ Happy Clients' },
   ];
 
   const expertise = [
