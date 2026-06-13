@@ -48,7 +48,7 @@ const Home = ({ navigate }: HomeProps) => {
   const testimonials = [
     {
       name: 'K.UmaMaheswara Reddy',
-      role: 'CEO, Tech Innovations',
+      role: 'CEO, Founder',
       content: 'SVM Associates has been instrumental in managing our company finances. Their expertise in tax planning saved us significantly.',
     },
    
