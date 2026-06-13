@@ -9,12 +9,12 @@ const Home = ({ navigate }: HomeProps) => {
     {
       icon: FileText,
       title: 'GST Services',
-      description: 'Complete GST compliance, filing, and advisory services for your business.',
+      description: 'Complete GST compliance, filling, and advisory services for your business.',
     },
     {
       icon: Calculator,
       title: 'Income Tax',
-      description: 'Expert income tax planning, filing, and consultation services.',
+      description: 'Expert income tax planning, filling, and consultation services.',
     },
     {
       icon: Building2,
@@ -39,28 +39,19 @@ const Home = ({ navigate }: HomeProps) => {
   ];
 
   const stats = [
-    { number: '150+', label: 'Clients Served' },
-    { number: '15+', label: 'Years Experience' },
-    { number: '50+', label: 'Expert Team' },
+    { number: '100+', label: 'Clients Served' },
+    { number: '5+', label: 'Years Experience' },
+    { number: '01+', label: 'Expert Team' },
     { number: '98%', label: 'Client Satisfaction' },
   ];
 
   const testimonials = [
     {
-      name: 'Rajesh Mehta',
+      name: 'K.UmaMaheswara Reddy',
       role: 'CEO, Tech Innovations',
       content: 'SVM Associate has been instrumental in managing our company finances. Their expertise in tax planning saved us significantly.',
     },
-    {
-      name: 'Priya Sharma',
-      role: 'Founder, Fashion Hub',
-      content: 'Professional, reliable, and always available. They made GST compliance so much easier for my business.',
-    },
-    {
-      name: 'Amit Patel',
-      role: 'Director, Manufacturing Co.',
-      content: 'Excellent audit services and financial advice. Their team is knowledgeable and trustworthy.',
-    },
+   
   ];
 
   const features = [
