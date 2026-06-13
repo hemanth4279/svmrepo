@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { MapPin, Phone, Mail, Clock, Send, CheckCircle2, MessageCircle } from 'lucide-react';
-import { supabase } from '../lib/supabase';
 
 interface ContactProps {
   navigate: (path: string) => void;
@@ -29,25 +28,15 @@ const Contact = ({ navigate }: ContactProps) => {
     setSubmitStatus('idle');
 
     try {
-      const { error } = await supabase.from('contact_submissions').insert([
-        {
-          name: formData.name,
-          email: formData.email,
-          phone: formData.phone || null,
-          message: formData.message,
-        },
-      ]);
-
-      if (error) throw error;
-
+      // Simulate form submission
+      await new Promise((resolve) => setTimeout(resolve, 1000));
       setSubmitStatus('success');
       setFormData({ name: '', email: '', phone: '', message: '' });
 
       setTimeout(() => {
         setSubmitStatus('idle');
       }, 5000);
-    } catch (error) {
-      console.error('Error submitting form:', error);
+    } catch {
       setSubmitStatus('error');
     } finally {
       setIsSubmitting(false);
@@ -58,19 +47,20 @@ const Contact = ({ navigate }: ContactProps) => {
     {
       icon: MapPin,
       title: 'Office Address',
-      content: '123 Business Plaza, Financial District, Mumbai - 400001, Maharashtra, India',
+      content:
+        'H.No- 206, Vasantha Lakshmi Nilayam, Temple Main Gate Road, Near Water Tank, Jaya Prakash Narayan Nagar, Miyapur, Hyderabad, Telangana-500049',
     },
     {
       icon: Phone,
       title: 'Phone Number',
-      content: '+91 98765 43210',
-      link: 'tel:+919876543210',
+      content: '+91 9618561434',
+      link: 'tel:+919618561434',
     },
     {
       icon: Mail,
       title: 'Email Address',
-      content: 'info@svmassociate.com',
-      link: 'mailto:info@svmassociate.com',
+      content: 'svmassociates07@gmail.com',
+      link: 'mailto:svmassociates07@gmail.com',
     },
     {
       icon: Clock,
@@ -279,14 +269,14 @@ const Contact = ({ navigate }: ContactProps) => {
             Find Us on the Map
           </h2>
           <div className="rounded-2xl overflow-hidden shadow-xl">
-           <iframe
-  title="Office Location"
-  src="https://maps.google.com/maps?q=17.507970,78.356081&z=17&output=embed"
-  width="100%"
-  height="450"
-  style={{ border: 0 }}
-  loading="lazy"
-/>
+            <iframe
+              title="Office Location"
+              src="https://maps.google.com/maps?q=17.507970,78.356081&z=17&output=embed"
+              width="100%"
+              height="450"
+              style={{ border: 0 }}
+              loading="lazy"
+            />
           </div>
         </div>
       </section>
