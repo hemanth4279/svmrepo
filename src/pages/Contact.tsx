@@ -259,7 +259,7 @@ const Contact = ({ navigate }: ContactProps) => {
                   Need immediate assistance? Chat with us on WhatsApp for instant support.
                 </p>
                 <a
-                  href="https://wa.me/919876543210"
+                  href="https://wa.me/919618561434"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 px-6 py-3 bg-green-500 hover:bg-green-600 text-white rounded-lg font-semibold transition-colors shadow-lg hover:shadow-xl"
