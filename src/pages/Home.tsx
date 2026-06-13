@@ -66,9 +66,9 @@ const Home = ({ navigate }: HomeProps) => {
       <section className="relative bg-white dark:bg-gray-900 pt-32 pb-20 overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center max-w-4xl mx-auto animate-fade-in">
-            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-6 leading-tight text-gray-900 dark:text-white">
-              Trusted Financial & Audit Solutions
-            </h1>
+            <h1 className="text-[1.2rem] md:text-[1.35rem] lg:text-[1.5rem] font-bold mb-6 leading-tight text-gray-900 dark:text-white">
+  Trusted Financial & Audit Solutions
+</h1>
             <p className="text-xl md:text-2xl mb-8 text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
               Expert guidance for your business growth. Comprehensive auditing, taxation, and financial services you can trust.
             </p>
