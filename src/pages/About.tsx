@@ -60,7 +60,7 @@ const About = ({ navigate }: AboutProps) => {
       <section className="relative bg-gradient-to-br from-primary-600 via-primary-700 to-primary-900 dark:from-primary-800 dark:via-primary-900 dark:to-gray-900 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">About SVM ASSOCIATES</h1>
+            <h1 className="text-2xl md:text-5xl font-bold mb-6">About SVM ASSOCIATES</h1>
             <p className="text-xl text-blue-100">
               Your trusted partner in financial excellence since 2020
             </p>
