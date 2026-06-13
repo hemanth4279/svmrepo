@@ -38,8 +38,8 @@ const Header = ({ currentPath, navigate }: HeaderProps) => {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled
-          ? 'bg-white/95 dark:bg-gray-900/95 backdrop-blur-sm shadow-md'
-          : 'bg-transparent'
+  ? 'bg-white backdrop-blur-sm shadow-md'
+  : 'bg-white'
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -61,7 +61,7 @@ const Header = ({ currentPath, navigate }: HeaderProps) => {
                 className={`text-sm font-medium transition-colors ${
                   currentPath === link.path
                     ? 'text-primary-600 dark:text-primary-400'
-                    : 'text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400'
+                    : 'text-white hover:text-primary-600 dark:hover:text-primary-400'
                 }`}
               >
                 {link.label}
@@ -123,7 +123,7 @@ const Header = ({ currentPath, navigate }: HeaderProps) => {
                 className={`block w-full text-left px-4 py-3 rounded-lg text-base font-medium transition-colors ${
                   currentPath === link.path
                     ? 'bg-primary-50 dark:bg-primary-900/20 text-primary-600 dark:text-primary-400'
-                    : 'text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-800'
+                    : 'text-white hover:bg-gray-50 dark:hover:bg-gray-800'
                 }`}
               >
                 {link.label}
