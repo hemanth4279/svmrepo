@@ -114,10 +114,10 @@ const Home = ({ navigate }: HomeProps) => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-              About SVM Associate
+              About SVM Associates
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              With over 15 years of excellence in financial services, we provide comprehensive solutions
+              With over 5+ years of excellence in financial services, we provide comprehensive solutions
               for businesses of all sizes. Our team of certified professionals is dedicated to your success.
             </p>
           </div>
