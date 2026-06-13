@@ -109,7 +109,7 @@ const Footer = ({ navigate }: FooterProps) => {
               <li className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-primary-400 mt-0.5 flex-shrink-0" />
                 <span className="text-gray-400">
-                  H.No- 206, Vasantha Lakshmi Nilayam, Temple Main Gate Road, Near Water Tank,Jaya Prakash Narayan Nagar, Miyapur, Hyderabad, Telangana-500049
+                  H No-206, S1 2nd Floor, Vasantha Lakshmi Nilayam, Sai Baba Temple Main Gate Road Near Water Tank , Jaya Prakash Narayan Nagar colony, Miyapur, Hyderabad, Telangana-500049
                 </span>
               </li>
               <li className="flex items-center space-x-3">
