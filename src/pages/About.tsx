@@ -62,7 +62,7 @@ const About = ({ navigate }: AboutProps) => {
           <div className="text-center max-w-3xl mx-auto">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">About SVM Associates</h1>
             <p className="text-xl text-blue-100">
-              Your trusted partner in financial excellence since 2008
+              Your trusted partner in financial excellence since 2020
             </p>
           </div>
         </div>
@@ -76,7 +76,7 @@ const About = ({ navigate }: AboutProps) => {
                 Who We Are
               </h2>
               <p className="text-lg text-gray-600 dark:text-gray-300 mb-4">
-                SVM Associates is a leading firm of Chartered Accountants, established in 2008 with
+                SVM Associates is a leading firm of Chartered Accountants, established in 2021 with
                 a vision to provide comprehensive financial and auditing solutions to businesses
                 across India.
               </p>
@@ -94,7 +94,7 @@ const About = ({ navigate }: AboutProps) => {
             <div className="grid grid-cols-2 gap-6">
               <div className="bg-gradient-to-br from-primary-50 to-primary-100 dark:from-primary-900/20 dark:to-primary-800/20 rounded-2xl p-6 text-center">
                 <div className="text-4xl font-bold text-primary-600 dark:text-primary-400 mb-2">
-                  500+
+                  100+
                 </div>
                 <div className="text-gray-700 dark:text-gray-300 font-medium">
                   Clients Served
@@ -102,7 +102,7 @@ const About = ({ navigate }: AboutProps) => {
               </div>
               <div className="bg-gradient-to-br from-accent-50 to-accent-100 dark:from-accent-900/20 dark:to-accent-800/20 rounded-2xl p-6 text-center">
                 <div className="text-4xl font-bold text-accent-600 dark:text-accent-400 mb-2">
-                  15+
+                  5+
                 </div>
                 <div className="text-gray-700 dark:text-gray-300 font-medium">
                   Years Experience
@@ -110,7 +110,7 @@ const About = ({ navigate }: AboutProps) => {
               </div>
               <div className="bg-gradient-to-br from-green-50 to-green-100 dark:from-green-900/20 dark:to-green-800/20 rounded-2xl p-6 text-center">
                 <div className="text-4xl font-bold text-green-600 dark:text-green-400 mb-2">
-                  50+
+                  01+
                 </div>
                 <div className="text-gray-700 dark:text-gray-300 font-medium">
                   Team Members
