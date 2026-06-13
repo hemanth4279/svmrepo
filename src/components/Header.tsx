@@ -61,7 +61,7 @@ const Header = ({ currentPath, navigate }: HeaderProps) => {
                 className={`text-sm font-medium transition-colors ${
                   currentPath === link.path
                     ? 'text-primary-600 dark:text-primary-400'
-                    : 'text-white hover:text-primary-600 dark:hover:text-primary-400'
+                    : 'text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400'
                 }`}
               >
                 {link.label}
@@ -80,7 +80,7 @@ const Header = ({ currentPath, navigate }: HeaderProps) => {
             </button>
             <button
               onClick={() => handleNavigate('/contact')}
-              className="px-6 py-2.5 bg-primary-600 hover:bg-primary-700 text-white rounded-lg font-medium transition-colors shadow-md hover:shadow-lg"
+              className="px-6 py-2.5 bg-primary-600 hover:bg-primary-700 text-gray-700 dark:text-gray-300 rounded-lg font-medium transition-colors shadow-md hover:shadow-lg"
             >
               Get Consultation
             </button>
@@ -123,7 +123,7 @@ const Header = ({ currentPath, navigate }: HeaderProps) => {
                 className={`block w-full text-left px-4 py-3 rounded-lg text-base font-medium transition-colors ${
                   currentPath === link.path
                     ? 'bg-primary-50 dark:bg-primary-900/20 text-primary-600 dark:text-primary-400'
-                    : 'text-white hover:bg-gray-50 dark:hover:bg-gray-800'
+                    : 'text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-800'
                 }`}
               >
                 {link.label}
@@ -131,7 +131,7 @@ const Header = ({ currentPath, navigate }: HeaderProps) => {
             ))}
             <button
               onClick={() => handleNavigate('/contact')}
-              className="w-full px-4 py-3 bg-primary-600 hover:bg-primary-700 text-white rounded-lg font-medium transition-colors shadow-md"
+              className="w-full px-4 py-3 bg-primary-600 hover:bg-primary-700 text-gray-700 dark:text-gray-300 rounded-lg font-medium transition-colors shadow-md"
             >
               Get Consultation
             </button>
