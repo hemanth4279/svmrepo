@@ -81,7 +81,7 @@ const About = ({ navigate }: AboutProps) => {
                 across India.
               </p>
               <p className="text-lg text-gray-600 dark:text-gray-300 mb-4">
-                With over 15 years of experience, we have built a reputation for excellence,
+                With over 5+ years of experience, we have built a reputation for excellence,
                 integrity, and client-focused service. Our team of certified professionals brings
                 together diverse expertise in taxation, auditing, accounting, and business advisory.
               </p>
