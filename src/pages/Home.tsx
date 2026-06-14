@@ -70,7 +70,7 @@ const Home = ({ navigate }: HomeProps) => {
     role: 'Client',
     content:
       'SVM Associates delivered outstanding professional service for my business needs. Their practical advice, transparency, and dedication made the entire experience smooth and stress-free.',
-  }
+  },
 
     {
   name: 'A. Kiran Kumar Reddy',
