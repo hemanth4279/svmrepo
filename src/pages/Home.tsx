@@ -46,11 +46,33 @@ const Home = ({ navigate }: HomeProps) => {
   ];
 
   const testimonials = [
-    {
-      name: 'K.UmaMaheswara Reddy',
-      role: 'CEO, Founder of SVM ASSOCIATES',
-      content: 'SVM Associates has been instrumental in managing our company finances. Their expertise in tax planning saved us significantly.',
-    },
+    [
+  {
+    name: 'G. Hemanth Kumar Reddy',
+    role: 'Client',
+    content:
+      'SVM Associates provided excellent guidance for my tax filing and financial planning. Their team was responsive, professional, and ensured every detail was handled accurately.',
+  },
+  {
+    name: 'K. Veera Govardhan Reddy',
+    role: 'Client',
+    content:
+      'The team at SVM Associates helped me navigate complex compliance requirements with ease. Their expertise and timely support gave me complete confidence throughout the process.',
+  },
+  {
+    name: 'Y. Subba Reddy',
+    role: 'Client',
+    content:
+      'I am highly satisfied with the accounting and advisory services provided by SVM Associates. Their attention to detail and commitment to client success truly sets them apart.',
+  },
+  {
+    name: 'P. Nagendra',
+    role: 'Client',
+    content:
+      'SVM Associates delivered outstanding professional service for my business needs. Their practical advice, transparency, and dedication made the entire experience smooth and stress-free.',
+  }
+]
+    
    
   ];
 
