@@ -72,7 +72,18 @@ const Home = ({ navigate }: HomeProps) => {
       'SVM Associates delivered outstanding professional service for my business needs. Their practical advice, transparency, and dedication made the entire experience smooth and stress-free.',
   }
 
-    
+    {
+  name: 'A. Kiran Kumar Reddy',
+  role: 'Client',
+  content:
+    'SVM Associates provided exceptional support in managing my financial records and tax compliance. Their knowledgeable team ensured everything was completed accurately and on time.',
+},
+{
+  name: 'B. Venkata Prasad',
+  role: 'Client',
+  content:
+    'I appreciate the professionalism and dedication shown by SVM Associates. Their expert advice helped me make informed financial decisions and simplified the entire process.',
+}
    
   ];
 
