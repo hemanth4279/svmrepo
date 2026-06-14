@@ -46,7 +46,7 @@ const Home = ({ navigate }: HomeProps) => {
   ];
 
   const testimonials = [
-    [
+    
   {
     name: 'G. Hemanth Kumar Reddy',
     role: 'Client',
@@ -71,7 +71,7 @@ const Home = ({ navigate }: HomeProps) => {
     content:
       'SVM Associates delivered outstanding professional service for my business needs. Their practical advice, transparency, and dedication made the entire experience smooth and stress-free.',
   }
-]
+
     
    
   ];
