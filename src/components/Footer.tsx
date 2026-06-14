@@ -34,15 +34,7 @@ const Footer = ({ navigate }: FooterProps) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           <div>
-            <div className="mb-4">
-              <div className="bg-white rounded-xl px-4 py-3 inline-block shadow-lg">
-                <img
-                  src="/svm_logo_1-01.png"
-                  alt="SVM Associates"
-                  className="h-12 w-auto object-contain"
-                />
-              </div>
-            </div>
+            <h3 className="text-2xl font-bold text-white mb-4">SVM ASSOCIATES</h3>
             <p className="text-gray-400 mb-4">
               Your trusted partner for comprehensive auditing and financial services.
               We help businesses grow with expert guidance and compliance solutions.

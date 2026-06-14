@@ -48,12 +48,8 @@ const Header = ({ currentPath, navigate }: HeaderProps) => {
             className="flex items-center cursor-pointer"
             onClick={() => handleNavigate('/')}
           >
-            <div className="bg-white rounded-xl px-3 py-1.5 shadow-sm border border-gray-100 dark:border-gray-700">
-              <img
-                src="/svm_logo_1-01.png"
-                alt="SVM Associates"
-                className="h-10 w-auto object-contain"
-              />
+            <div className="text-[1.73rem] font-bold bg-gradient-to-r from-blue-800 via-blue-600 to-cyan-500 dark:from-blue-300 dark:via-blue-200 dark:to-cyan-300 bg-clip-text text-transparent">
+              SVM ASSOCIATES
             </div>
           </div>
 
