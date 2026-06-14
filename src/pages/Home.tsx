@@ -66,6 +66,15 @@ const Home = ({ navigate }: HomeProps) => {
       <section className="relative bg-white dark:bg-gray-900 pt-32 pb-20 overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center max-w-4xl mx-auto animate-fade-in">
+            <div className="flex justify-center mb-8">
+              <div className="bg-white rounded-2xl shadow-xl border border-gray-100 px-8 py-5 inline-block">
+                <img
+                  src="/svm_logo_Big_1-01.png"
+                  alt="SVM Associates – Accounts & Tax Services"
+                  className="h-28 md:h-36 w-auto object-contain"
+                />
+              </div>
+            </div>
             <h1 className="text-[1.2rem] md:text-[1.35rem] lg:text-[1.5rem] font-bold mb-6 leading-tight text-gray-900 dark:text-white">
   Trusted Financial & Audit Solutions
 </h1>
