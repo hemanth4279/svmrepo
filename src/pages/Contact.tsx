@@ -23,25 +23,36 @@ const Contact = ({ navigate }: ContactProps) => {
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsSubmitting(true);
-    setSubmitStatus('idle');
+  e.preventDefault();
+  setIsSubmitting(true);
+  setSubmitStatus('idle');
 
-    try {
-      // Simulate form submission
-      await new Promise((resolve) => setTimeout(resolve, 1000));
-      setSubmitStatus('success');
-      setFormData({ name: '', email: '', phone: '', message: '' });
+  try {
+    const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycby_nnP_xa9ZRb7V6Q-uB83xZImULjk1gMSc-OUIcCew1IU7im0TTPc6TmNDjAcwB2fr/exec';
 
-      setTimeout(() => {
-        setSubmitStatus('idle');
-      }, 5000);
-    } catch {
-      setSubmitStatus('error');
-    } finally {
-      setIsSubmitting(false);
-    }
-  };
+    const formBody = new URLSearchParams({
+      name: formData.name,
+      email: formData.email,
+      phone: formData.phone,
+      message: formData.message,
+    });
+
+    await fetch(SCRIPT_URL, {
+      method: 'POST',
+      mode: 'no-cors',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: formBody.toString(),
+    });
+
+    setSubmitStatus('success');
+    setFormData({ name: '', email: '', phone: '', message: '' });
+    setTimeout(() => setSubmitStatus('idle'), 5000);
+  } catch {
+    setSubmitStatus('error');
+  } finally {
+    setIsSubmitting(false);
+  }
+};
 
   const contactInfo = [
     {
